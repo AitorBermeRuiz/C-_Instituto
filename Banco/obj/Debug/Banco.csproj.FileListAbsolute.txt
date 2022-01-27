@@ -1,0 +1,15 @@
+C:\Users\aitor\source\repos\Banco\bin\Debug\Banco.exe.config
+C:\Users\aitor\source\repos\Banco\bin\Debug\Banco.exe
+C:\Users\aitor\source\repos\Banco\bin\Debug\Banco.pdb
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\Banco\obj\Debug\MainWindow.g.cs
+C:\Users\aitor\source\repos\Banco\obj\Debug\App.g.cs
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco_MarkupCompile.cache
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco_MarkupCompile.lref
+C:\Users\aitor\source\repos\Banco\obj\Debug\MainWindow.baml
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco.g.resources
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco.Properties.Resources.resources
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco.exe
+C:\Users\aitor\source\repos\Banco\obj\Debug\Banco.pdb
