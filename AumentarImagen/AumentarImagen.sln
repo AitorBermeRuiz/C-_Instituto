@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AumentarImagen", "AumentarImagen.csproj", "{192B869F-ECE8-40B8-B0E8-6B58100425D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192B869F-ECE8-40B8-B0E8-6B58100425D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192B869F-ECE8-40B8-B0E8-6B58100425D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192B869F-ECE8-40B8-B0E8-6B58100425D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192B869F-ECE8-40B8-B0E8-6B58100425D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41D83657-7747-4978-AD51-0808A01F5CEB}
+	EndGlobalSection
+EndGlobal

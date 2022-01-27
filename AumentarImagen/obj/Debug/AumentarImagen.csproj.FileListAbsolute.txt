@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\AumentarImagen\obj\Debug\AumentarImagen.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\AumentarImagen\obj\Debug\AumentarImagen.Form1.resources
+C:\Users\Alumno\source\repos\AumentarImagen\obj\Debug\AumentarImagen.Properties.Resources.resources
+C:\Users\Alumno\source\repos\AumentarImagen\obj\Debug\AumentarImagen.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\AumentarImagen\obj\Debug\AumentarImagen.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\AumentarImagen\bin\Debug\AumentarImagen.exe.config
+C:\Users\Alumno\source\repos\AumentarImagen\bin\Debug\AumentarImagen.exe
+C:\Users\Alumno\source\repos\AumentarImagen\bin\Debug\AumentarImagen.pdb
+C:\Users\Alumno\source\repos\AumentarImagen\obj\Debug\AumentarImagen.exe
+C:\Users\Alumno\source\repos\AumentarImagen\obj\Debug\AumentarImagen.pdb
