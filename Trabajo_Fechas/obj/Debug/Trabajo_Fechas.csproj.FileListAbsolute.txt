@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\Trabajo_Fechas\bin\Debug\Trabajo_Fechas.exe.config
+C:\Users\Alumno\source\repos\Trabajo_Fechas\bin\Debug\Trabajo_Fechas.exe
+C:\Users\Alumno\source\repos\Trabajo_Fechas\bin\Debug\Trabajo_Fechas.pdb
+C:\Users\Alumno\source\repos\Trabajo_Fechas\obj\Debug\Trabajo_Fechas.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Trabajo_Fechas\obj\Debug\Trabajo_Fechas.Form1.resources
+C:\Users\Alumno\source\repos\Trabajo_Fechas\obj\Debug\Trabajo_Fechas.Properties.Resources.resources
+C:\Users\Alumno\source\repos\Trabajo_Fechas\obj\Debug\Trabajo_Fechas.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\Trabajo_Fechas\obj\Debug\Trabajo_Fechas.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Trabajo_Fechas\obj\Debug\Trabajo_Fechas.exe
+C:\Users\Alumno\source\repos\Trabajo_Fechas\obj\Debug\Trabajo_Fechas.pdb

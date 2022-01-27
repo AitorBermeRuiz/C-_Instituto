@@ -1,0 +1,12 @@
+C:\Users\aitor\source\repos\EjercicioExamen\bin\Debug\EjercicioExamen.exe.config
+C:\Users\aitor\source\repos\EjercicioExamen\bin\Debug\EjercicioExamen.exe
+C:\Users\aitor\source\repos\EjercicioExamen\bin\Debug\EjercicioExamen.pdb
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.AccesoUsuario.resources
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.Properties.Resources.resources
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.exe
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.pdb
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.Registro.resources
+C:\Users\aitor\source\repos\EjercicioExamen\obj\Debug\EjercicioExamen.MostrarUsuario.resources

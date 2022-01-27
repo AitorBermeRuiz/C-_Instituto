@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\FechasNacimiento\bin\Debug\FechasNacimiento.exe.config
+C:\Users\Alumno\source\repos\FechasNacimiento\bin\Debug\FechasNacimiento.exe
+C:\Users\Alumno\source\repos\FechasNacimiento\bin\Debug\FechasNacimiento.pdb
+C:\Users\Alumno\source\repos\FechasNacimiento\obj\Debug\FechasNacimiento.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\FechasNacimiento\obj\Debug\FechasNacimiento.Form1.resources
+C:\Users\Alumno\source\repos\FechasNacimiento\obj\Debug\FechasNacimiento.Properties.Resources.resources
+C:\Users\Alumno\source\repos\FechasNacimiento\obj\Debug\FechasNacimiento.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\FechasNacimiento\obj\Debug\FechasNacimiento.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\FechasNacimiento\obj\Debug\FechasNacimiento.exe
+C:\Users\Alumno\source\repos\FechasNacimiento\obj\Debug\FechasNacimiento.pdb
