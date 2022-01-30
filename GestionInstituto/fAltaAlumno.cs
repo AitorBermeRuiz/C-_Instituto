@@ -77,16 +77,38 @@ namespace GestionInstituto
             cAlumno alumno = new cAlumno(tbNombre.Text, tbApellidos.Text, tbDni.Text, tbMain.Text, combobCurso.Text, modulos);
 
             guardarFichero(alumno);
+            vaciarCampos();
         }
         private void guardarFichero(cAlumno alumno) 
         {
             FileStream fs = new FileStream("Alumnos.txt", FileMode.Append);
             BinaryFormatter formatter = new BinaryFormatter();
+
+            formatter.Serialize(fs, alumno);
+            fs.Close();
+
         }
 
         private void bCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        private void vaciarCampos()
+        {
+            tbApellidos.Clear();
+            tbNombre.Clear();
+            tbMain.Clear();
+            tbDni.Clear();
+            combobCurso.SelectedIndex = -1;
+            
+            for (int i = 0; i < checkedLb1DAM.Items.Count; ++i)
+            {
+                checkedLb1DAM.SetItemChecked(i, false);
+            }
+            for (int i = 0; i < checkedLb2DAM.Items.Count; ++i)
+            {
+                checkedLb2DAM.SetItemChecked(i, false);
+            }
         }
 
     }

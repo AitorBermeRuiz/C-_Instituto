@@ -39,6 +39,7 @@ namespace GestionInstituto
             this.ºDAMAToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ºDAMBToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tODOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lMostrarAlumnos = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,6 +75,7 @@ namespace GestionInstituto
             this.bajaAlumnoToolStripMenuItem.Name = "bajaAlumnoToolStripMenuItem";
             this.bajaAlumnoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bajaAlumnoToolStripMenuItem.Text = "Baja alumno";
+            this.bajaAlumnoToolStripMenuItem.Click += new System.EventHandler(this.bajaAlumnoToolStripMenuItem_Click);
             // 
             // listadoAlumnosToolStripMenuItem
             // 
@@ -92,36 +94,51 @@ namespace GestionInstituto
             this.ºDAMAToolStripMenuItem.Name = "ºDAMAToolStripMenuItem";
             this.ºDAMAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ºDAMAToolStripMenuItem.Text = "1º DAM A";
+            this.ºDAMAToolStripMenuItem.Click += new System.EventHandler(this.ºDAMAToolStripMenuItem_Click);
             // 
             // ºDAMBToolStripMenuItem
             // 
             this.ºDAMBToolStripMenuItem.Name = "ºDAMBToolStripMenuItem";
             this.ºDAMBToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ºDAMBToolStripMenuItem.Text = "1º DAM B";
+            this.ºDAMBToolStripMenuItem.Click += new System.EventHandler(this.ºDAMBToolStripMenuItem_Click);
             // 
             // ºDAMAToolStripMenuItem1
             // 
             this.ºDAMAToolStripMenuItem1.Name = "ºDAMAToolStripMenuItem1";
             this.ºDAMAToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.ºDAMAToolStripMenuItem1.Text = "2º DAM A";
+            this.ºDAMAToolStripMenuItem1.Click += new System.EventHandler(this.ºDAMAToolStripMenuItem1_Click);
             // 
             // ºDAMBToolStripMenuItem1
             // 
             this.ºDAMBToolStripMenuItem1.Name = "ºDAMBToolStripMenuItem1";
             this.ºDAMBToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.ºDAMBToolStripMenuItem1.Text = "2º DAM B";
+            this.ºDAMBToolStripMenuItem1.Click += new System.EventHandler(this.ºDAMBToolStripMenuItem1_Click);
             // 
             // tODOSToolStripMenuItem
             // 
             this.tODOSToolStripMenuItem.Name = "tODOSToolStripMenuItem";
             this.tODOSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tODOSToolStripMenuItem.Text = "TODOS";
+            this.tODOSToolStripMenuItem.Click += new System.EventHandler(this.tODOSToolStripMenuItem_Click);
+            // 
+            // lMostrarAlumnos
+            // 
+            this.lMostrarAlumnos.Location = new System.Drawing.Point(336, 24);
+            this.lMostrarAlumnos.Name = "lMostrarAlumnos";
+            this.lMostrarAlumnos.Size = new System.Drawing.Size(452, 417);
+            this.lMostrarAlumnos.TabIndex = 1;
+            this.lMostrarAlumnos.Text = "Mostrar alumnos";
+            this.lMostrarAlumnos.Visible = false;
             // 
             // fGestionAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lMostrarAlumnos);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "fGestionAlumnos";
@@ -145,6 +162,7 @@ namespace GestionInstituto
         private System.Windows.Forms.ToolStripMenuItem ºDAMAToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem ºDAMBToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem tODOSToolStripMenuItem;
+        private System.Windows.Forms.Label lMostrarAlumnos;
     }
 }
 

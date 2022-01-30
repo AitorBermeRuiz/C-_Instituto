@@ -10,3 +10,15 @@ C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.
 C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.exe
 C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.pdb
+C:\Users\aitor\source\repos\GestionInstituto\bin\Debug\GestionInstituto.exe.config
+C:\Users\aitor\source\repos\GestionInstituto\bin\Debug\GestionInstituto.exe
+C:\Users\aitor\source\repos\GestionInstituto\bin\Debug\GestionInstituto.pdb
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.fAltaAlumno.resources
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.fBajaAlumno.resources
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.fGestionAlumnos.resources
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.Properties.Resources.resources
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.exe
+C:\Users\aitor\source\repos\GestionInstituto\obj\Debug\GestionInstituto.pdb
