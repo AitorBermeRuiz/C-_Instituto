@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\SBanco\bin\Debug\SBanco.exe.config
+C:\Users\Alumno\source\repos\SBanco\bin\Debug\SBanco.exe
+C:\Users\Alumno\source\repos\SBanco\bin\Debug\SBanco.pdb
+C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.Form1.resources
+C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.Properties.Resources.resources
+C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.exe
+C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.pdb
