@@ -44,7 +44,7 @@ namespace GestionInstituto
                     cAlumno alumno = (cAlumno)formatter.Deserialize(fs);
                     if (alumno.Activo)
                     {
-                        texto += alumno.toStringSinNotas() + ", Modulos: ";
+                        texto += alumno.toStringSinNotas() + ", Modulos:: ";
                         List<String> modulos = alumno.Modulos1;
                         foreach (String modulo in modulos)
                         {
