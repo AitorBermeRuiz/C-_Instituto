@@ -29,9 +29,12 @@ namespace GestionInstituto
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lDni = new System.Windows.Forms.Label();
             this.tbDni = new System.Windows.Forms.TextBox();
             this.bAceptar = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lDni
@@ -60,6 +63,10 @@ namespace GestionInstituto
             this.bAceptar.UseVisualStyleBackColor = true;
             this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // fBajaAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -70,6 +77,7 @@ namespace GestionInstituto
             this.Controls.Add(this.lDni);
             this.Name = "fBajaAlumno";
             this.Text = "Baja Alumno";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -80,5 +88,6 @@ namespace GestionInstituto
         private System.Windows.Forms.Label lDni;
         private System.Windows.Forms.TextBox tbDni;
         private System.Windows.Forms.Button bAceptar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

@@ -39,6 +39,7 @@ namespace GestionInstituto
                 FileStream fs = new FileStream("Alumnos.txt", FileMode.Open);
                 BinaryFormatter formatter = new BinaryFormatter();
 
+                //While hasta fin del fichero, que va guardando objeto a objeto en un string y los imprime al final
                 while(fs.Position != fs.Length){
 
                     cAlumno alumno = (cAlumno)formatter.Deserialize(fs);
@@ -50,7 +51,7 @@ namespace GestionInstituto
                         {
                             texto += modulo + ", ";
                         }
-                        texto += Environment.NewLine;
+                        texto += Environment.NewLine+ Environment.NewLine;
                     }
                 }
                 lMostrarAlumnos.Visible = true;
@@ -81,6 +82,9 @@ namespace GestionInstituto
         }
         private void filtrarBusqueda(String curso)
         {
+            //metodo igual que el de mostrar todos con una doble condicion de si activo esta en true y si
+            //curso es igual al string que le enviamos
+
             String texto = "";
             try
             {
@@ -100,12 +104,47 @@ namespace GestionInstituto
                         {
                             texto += modulo + ", ";
                         }
-                        texto += Environment.NewLine;
+                        texto += Environment.NewLine+ Environment.NewLine;
                     }
                 }
                 lMostrarAlumnos.Visible = true;
                 lMostrarAlumnos.Text = texto;
                 fs.Close();
+            }
+            catch (FileNotFoundException fnfe) { MessageBox.Show("Fichero no existente"); }
+        }
+        public  static void altaBaja(bool alta,String DNI)
+        {
+            //Metodo que recibe dni y bolleano de true a false, encuentra el dni introducido correspondido,
+            //al objeto alumno con el mismo dni, si el bolean es true da de alta al objeto(activo=true), si es false
+            //lo contrario
+            try
+            {
+
+                FileStream fs = new FileStream("Alumnos.txt", FileMode.Open);
+                BinaryFormatter formatter = new BinaryFormatter();
+                FileStream fs1 = new FileStream("Auxiliar.txt", FileMode.Create);
+
+                while (fs.Position != fs.Length)
+                {
+
+                    cAlumno alumno = (cAlumno)formatter.Deserialize(fs);
+                    if (DNI == alumno.DNI1)
+                    {
+                        if (alta)
+                            alumno.Activo = true;
+                        else
+                            alumno.Activo = false;
+                    }
+                    formatter.Serialize(fs1, alumno);
+
+                }
+                fs.Close();
+
+                fs1.Close();
+                File.Delete("Alumnos.txt");
+                File.Copy(fs1.Name, "Alumnos.txt");
+                File.Delete("Auxiliar.txt");
             }
             catch (FileNotFoundException fnfe) { MessageBox.Show("Fichero no existente"); }
         }

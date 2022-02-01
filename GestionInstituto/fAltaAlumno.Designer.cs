@@ -29,6 +29,7 @@ namespace GestionInstituto
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lNombre = new System.Windows.Forms.Label();
             this.tbNombre = new System.Windows.Forms.TextBox();
             this.tbApellidos = new System.Windows.Forms.TextBox();
@@ -44,6 +45,8 @@ namespace GestionInstituto
             this.checkedLb2DAM = new System.Windows.Forms.CheckedListBox();
             this.bAdd = new System.Windows.Forms.Button();
             this.bCancelar = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lNombre
@@ -190,6 +193,10 @@ namespace GestionInstituto
             this.bCancelar.UseVisualStyleBackColor = true;
             this.bCancelar.Click += new System.EventHandler(this.bCancelar_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // fAltaAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,6 +219,7 @@ namespace GestionInstituto
             this.Controls.Add(this.lNombre);
             this.Name = "fAltaAlumno";
             this.Text = "Alta Alumno";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +242,6 @@ namespace GestionInstituto
         private System.Windows.Forms.CheckedListBox checkedLb2DAM;
         private System.Windows.Forms.Button bAdd;
         private System.Windows.Forms.Button bCancelar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

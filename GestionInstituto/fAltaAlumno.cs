@@ -52,8 +52,9 @@ namespace GestionInstituto
 
         private void bAdd_Click(object sender, EventArgs e)
         {
-            //Dependiendo de que checked list box este activo guardaria los datos de 
-            //ese checked list box en la lista
+            //Tengo una lista de modulos, dependiendo de que checkedListBox este visible hacemos un forEach para guardar
+            //sus item activos, es decir modulos en los que está matriculado.
+            
             List<String> modulos = new List<string>();
             if (checkedLb1DAM.Visible)
             {
@@ -81,39 +82,78 @@ namespace GestionInstituto
         }
         private void guardarFichero(cAlumno alumno) 
         {
-            if (dniExistente(alumno.DNI1)) { }
-            FileStream fs = new FileStream("Alumnos.txt", FileMode.Append);
-            BinaryFormatter formatter = new BinaryFormatter();
+            //A la hora de darle al boton de guardar comprobamos si el DNI ya existe, si si que existe le preguntamos si 
+            //quiere dar de baja a ese alumno, entonces le dariamos de baja. De lo contrario, si no existe el dni,
+            //simplemente se guarda en el fichero
 
-            formatter.Serialize(fs, alumno);
-            fs.Close();
+            switch (comprobacionDniyActivo(alumno.DNI1)) {
+
+                case 0://Dni no existe
+                    FileStream fs = new FileStream("Alumnos.txt", FileMode.Append);
+                    BinaryFormatter formatter = new BinaryFormatter();
+
+                    formatter.Serialize(fs, alumno);
+                    fs.Close();
+                    errorProvider1.Clear();
+                    break;
+                case 1://Dni existe en el fichero pero dado de baja
+                    if (MessageBox.Show("El dni ya existe, quieres darle de alta?, si no introduce un dni no existente",
+                    "Alta", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        fGestionAlumnos.altaBaja(true, alumno.DNI1);
+                        errorProvider1.Clear();
+                    }
+                    else
+                        errorProvider1.SetError(tbDni, "Cambie el dni por favor");
+                    break;
+                case 2://Dni existe en el fichero y dado de alta
+                    errorProvider1.SetError(tbDni, "Dni ya existe y dado de alta, por favor cambie el dni");
+                    break;
+            }
+
+            /*if (comprobacionDniyActivo(alumno.DNI1))
+            { 
+                if (MessageBox.Show("El dni ya existe, quieres darle de alta?, si no introduce un dni no existente",
+                    "Alta", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    fGestionAlumnos.altaBaja(true, alumno.DNI1);
+                }
+            }else
+            {
+                FileStream fs = new FileStream("Alumnos.txt", FileMode.Append);
+                BinaryFormatter formatter = new BinaryFormatter();
+
+                formatter.Serialize(fs, alumno);
+                fs.Close();
+            }*/
 
         }
 
-        private bool dniExistente(String dni)
+        public static int comprobacionDniyActivo(String dni)
         {
-            bool dniExist = false;
+            //Función que comprueba si el dni está guardado en el fichero, si el usuario esta activo cuando se le
+            //quiere dar de alta.
+            
+            //0 Dni no existe,
+            //1 Dni existe pero esta dado de baja
+            //2 Dni existe y esta dado de alta
+            int cond = 0;
             FileStream fs = new FileStream("Alumnos.txt", FileMode.Open);
             BinaryFormatter formatter = new BinaryFormatter();
-            FileStream fs1 = new FileStream("Auxiliar.txt", FileMode.Create);
 
             while (fs.Position != fs.Length)
             {
 
                 cAlumno alumno = (cAlumno)formatter.Deserialize(fs);
-                if (dni == alumno.DNI1)
-                {
-                    dniExist = true;
-                }
-                formatter.Serialize(fs1, alumno);
+                if (dni == alumno.DNI1 && alumno.Activo)
+                    cond = 2;
+                else if (dni == alumno.DNI1 && alumno.Activo == false)
+                    cond = 1;
+                
 
             }
             fs.Close();
-            fs1.Close();
-            File.Delete("Alumnos.txt");
-            File.Copy(fs1.Name, "Alumnos.txt");
-            File.Delete("Auxiliar.txt");
-            return dniExist;
+            return cond;
         }
 
         private void bCancelar_Click(object sender, EventArgs e)
@@ -126,8 +166,10 @@ namespace GestionInstituto
             tbNombre.Clear();
             tbMain.Clear();
             tbDni.Clear();
+            //Pone el desplegable en blanco
             combobCurso.SelectedIndex = -1;
             
+            //Hace un for de los todos los item de la lista, y pone a false uno a uno
             for (int i = 0; i < checkedLb1DAM.Items.Count; ++i)
             {
                 checkedLb1DAM.SetItemChecked(i, false);

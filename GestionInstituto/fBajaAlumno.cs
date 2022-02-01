@@ -21,36 +21,25 @@ namespace GestionInstituto
 
         private void bAceptar_Click(object sender, EventArgs e)
         {
-            string aux = " " + tbDni + " ? ";
             if (MessageBox.Show("Estas seguro que quieres dar de baja al usuario?", "Verificacion", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 string DNI = tbDni.Text;
-                try
+                //Función en Form1 que recibe True para dar de alta y false para dar de baja
+                switch (fAltaAlumno.comprobacionDniyActivo(DNI))
                 {
-
-                    FileStream fs = new FileStream("Alumnos.txt", FileMode.Open);
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    FileStream fs1 = new FileStream("Auxiliar.txt", FileMode.Create);
-
-                    while (fs.Position != fs.Length)
-                    {
-
-                        cAlumno alumno = (cAlumno)formatter.Deserialize(fs);
-                        if (DNI == alumno.DNI1)
-                        {
-                            alumno.Activo = false;
-                        }
-                        formatter.Serialize(fs1, alumno);
-
-                    }
-                    fs.Close();
-                    
-                    fs1.Close();
-                    File.Delete("Alumnos.txt");
-                    File.Copy(fs1.Name, "Alumnos.txt");
-                    File.Delete("Auxiliar.txt");
+                    case 0:
+                        errorProvider1.SetError(tbDni, "Dni no existente");
+                        break;
+                    case 1:
+                        errorProvider1.SetError(tbDni, "Dni ya dado de baja");
+                        break;
+                    case 2:
+                        fGestionAlumnos.altaBaja(false, DNI);
+                        errorProvider1.Clear();
+                        tbDni.Clear();
+                        break;
                 }
-                catch (FileNotFoundException fnfe) { MessageBox.Show("Fichero no existente"); }
+                
             }
         }
     }
