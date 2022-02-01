@@ -30,7 +30,7 @@ namespace GestionInstituto
 
                     FileStream fs = new FileStream("Alumnos.txt", FileMode.Open);
                     BinaryFormatter formatter = new BinaryFormatter();
-                    FileStream fs1 = new FileStream("Aux.txt", FileMode.CreateNew);
+                    FileStream fs1 = new FileStream("Auxiliar.txt", FileMode.Create);
 
                     while (fs.Position != fs.Length)
                     {
@@ -48,7 +48,7 @@ namespace GestionInstituto
                     fs1.Close();
                     File.Delete("Alumnos.txt");
                     File.Copy(fs1.Name, "Alumnos.txt");
-                    File.Delete("Aux.txt");
+                    File.Delete("Auxiliar.txt");
                 }
                 catch (FileNotFoundException fnfe) { MessageBox.Show("Fichero no existente"); }
             }

@@ -81,12 +81,39 @@ namespace GestionInstituto
         }
         private void guardarFichero(cAlumno alumno) 
         {
+            if (dniExistente(alumno.DNI1)) { }
             FileStream fs = new FileStream("Alumnos.txt", FileMode.Append);
             BinaryFormatter formatter = new BinaryFormatter();
 
             formatter.Serialize(fs, alumno);
             fs.Close();
 
+        }
+
+        private bool dniExistente(String dni)
+        {
+            bool dniExist = false;
+            FileStream fs = new FileStream("Alumnos.txt", FileMode.Open);
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream fs1 = new FileStream("Auxiliar.txt", FileMode.Create);
+
+            while (fs.Position != fs.Length)
+            {
+
+                cAlumno alumno = (cAlumno)formatter.Deserialize(fs);
+                if (dni == alumno.DNI1)
+                {
+                    dniExist = true;
+                }
+                formatter.Serialize(fs1, alumno);
+
+            }
+            fs.Close();
+            fs1.Close();
+            File.Delete("Alumnos.txt");
+            File.Copy(fs1.Name, "Alumnos.txt");
+            File.Delete("Auxiliar.txt");
+            return dniExist;
         }
 
         private void bCancelar_Click(object sender, EventArgs e)
