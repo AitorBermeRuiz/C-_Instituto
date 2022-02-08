@@ -14,6 +14,8 @@ namespace DonacionesSangre
             InitializeComponent();
         }
 
+
+
         private void nuevoDonanteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             NuevoDonante fNuevoDonante = new NuevoDonante(this);

@@ -33,13 +33,13 @@ namespace BlocNotas
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoTSM = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirTSM = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarTSM = new System.Windows.Forms.ToolStripMenuItem();
             this.guardarComoTSM = new System.Windows.Forms.ToolStripMenuItem();
             this.imprimirTSM = new System.Windows.Forms.ToolStripMenuItem();
             this.textoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fuenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TextBox = new System.Windows.Forms.TextBox();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.guardarTSM = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -81,6 +81,13 @@ namespace BlocNotas
             this.abrirTSM.Text = "Abrir";
             this.abrirTSM.Click += new System.EventHandler(this.abrirTSM_Click);
             // 
+            // guardarTSM
+            // 
+            this.guardarTSM.Name = "guardarTSM";
+            this.guardarTSM.Size = new System.Drawing.Size(180, 22);
+            this.guardarTSM.Text = "Guardar";
+            this.guardarTSM.Click += new System.EventHandler(this.guardarTSM_Click);
+            // 
             // guardarComoTSM
             // 
             this.guardarComoTSM.Name = "guardarComoTSM";
@@ -120,13 +127,6 @@ namespace BlocNotas
             // 
             this.saveFileDialog1.InitialDirectory = "C:\\Users\\aitor\\Documents\\Visual Studio 2019\\Ejemplos";
             this.saveFileDialog1.Title = "Guardar como";
-            // 
-            // guardarTSM
-            // 
-            this.guardarTSM.Name = "guardarTSM";
-            this.guardarTSM.Size = new System.Drawing.Size(180, 22);
-            this.guardarTSM.Text = "Guardar";
-            this.guardarTSM.Click += new System.EventHandler(this.guardarTSM_Click);
             // 
             // openFileDialog1
             // 

@@ -23,3 +23,13 @@ C:\Users\alumno\Desktop\NoeliaBilletesAutobus\BilletesAutobus\obj\Debug\Billetes
 C:\Users\alumno\Desktop\NoeliaBilletesAutobus\BilletesAutobus\obj\Debug\BilletesAutobus.exe
 C:\Users\alumno\Desktop\NoeliaBilletesAutobus\BilletesAutobus\obj\Debug\BilletesAutobus.pdb
 C:\Users\alumno\Desktop\NoeliaBilletesAutobus\BilletesAutobus\obj\Debug\BilletesAutobus.Form4.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.Form1.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.Form2.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.Form3.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.Form4.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.Properties.Resources.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\BilletesAutobus\obj\Debug\BilletesAutobus.pdb

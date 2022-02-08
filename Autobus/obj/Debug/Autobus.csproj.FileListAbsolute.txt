@@ -24,3 +24,16 @@ C:\Users\aitor\source\repos\Autobus\obj\Debug\Autobus.csproj.GenerateResource.ca
 C:\Users\aitor\source\repos\Autobus\obj\Debug\Autobus.csproj.CoreCompileInputs.cache
 C:\Users\aitor\source\repos\Autobus\obj\Debug\Autobus.exe
 C:\Users\aitor\source\repos\Autobus\obj\Debug\Autobus.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\bin\Debug\Autobus.exe.config
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\bin\Debug\Autobus.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\bin\Debug\Autobus.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.Comprar_Billete.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.fMostrar.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.Form1.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.FRegistroUsuarios.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.Properties.Resources.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\Autobus\obj\Debug\Autobus.pdb

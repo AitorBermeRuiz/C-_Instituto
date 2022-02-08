@@ -18,3 +18,13 @@ C:\Users\aitor\source\repos\ControlarLogin\obj\Debug\ControlarLogin.csproj.Gener
 C:\Users\aitor\source\repos\ControlarLogin\obj\Debug\ControlarLogin.csproj.CoreCompileInputs.cache
 C:\Users\aitor\source\repos\ControlarLogin\obj\Debug\ControlarLogin.exe
 C:\Users\aitor\source\repos\ControlarLogin\obj\Debug\ControlarLogin.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\bin\Debug\ControlarLogin.exe.config
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\bin\Debug\ControlarLogin.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\bin\Debug\ControlarLogin.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\obj\Debug\ControlarLogin.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\obj\Debug\ControlarLogin.Form1.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\obj\Debug\ControlarLogin.Properties.Resources.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\obj\Debug\ControlarLogin.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\obj\Debug\ControlarLogin.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\obj\Debug\ControlarLogin.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\ControlarLogin\obj\Debug\ControlarLogin.pdb
