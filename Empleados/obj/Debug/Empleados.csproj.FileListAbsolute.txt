@@ -8,3 +8,13 @@ C:\Users\Alumno\source\repos\Empleados\obj\Debug\Empleados.csproj.GenerateResour
 C:\Users\Alumno\source\repos\Empleados\obj\Debug\Empleados.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\Empleados\obj\Debug\Empleados.exe
 C:\Users\Alumno\source\repos\Empleados\obj\Debug\Empleados.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\bin\Debug\Empleados.exe.config
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\bin\Debug\Empleados.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\bin\Debug\Empleados.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\obj\Debug\Empleados.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\obj\Debug\Empleados.Form1.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\obj\Debug\Empleados.Properties.Resources.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\obj\Debug\Empleados.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\obj\Debug\Empleados.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\obj\Debug\Empleados.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\Empleados\obj\Debug\Empleados.pdb
