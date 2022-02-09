@@ -1,0 +1,12 @@
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\bin\Debug\Examen1Trimestre.exe.config
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\bin\Debug\Examen1Trimestre.exe
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\bin\Debug\Examen1Trimestre.pdb
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.csproj.AssemblyReference.cache
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.Form1.resources
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.Properties.Resources.resources
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.csproj.GenerateResource.cache
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.csproj.CoreCompileInputs.cache
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.exe
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.pdb
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.fRegistro.resources
+C:\Users\aitor\Source\Repos\cSharp_Instituto\Examen1Trimestre\obj\Debug\Examen1Trimestre.fQueja.resources

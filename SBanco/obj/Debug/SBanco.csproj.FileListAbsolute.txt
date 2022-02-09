@@ -8,3 +8,13 @@ C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.csproj.GenerateResource.cac
 C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.exe
 C:\Users\Alumno\source\repos\SBanco\obj\Debug\SBanco.pdb
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\bin\Debug\SBanco.exe.config
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\bin\Debug\SBanco.exe
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\bin\Debug\SBanco.pdb
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\obj\Debug\SBanco.csproj.AssemblyReference.cache
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\obj\Debug\SBanco.Form1.resources
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\obj\Debug\SBanco.Properties.Resources.resources
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\obj\Debug\SBanco.csproj.GenerateResource.cache
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\obj\Debug\SBanco.csproj.CoreCompileInputs.cache
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\obj\Debug\SBanco.exe
+C:\Users\aitor\Source\Repos\cSharp_Instituto\SBanco\obj\Debug\SBanco.pdb

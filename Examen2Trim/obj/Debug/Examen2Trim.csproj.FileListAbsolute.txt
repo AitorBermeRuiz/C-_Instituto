@@ -1,0 +1,14 @@
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\bin\Debug\Examen2Trim.exe.config
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\bin\Debug\Examen2Trim.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\bin\Debug\Examen2Trim.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.csproj.AssemblyReference.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.Form1.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.Properties.Resources.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.csproj.GenerateResource.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.csproj.CoreCompileInputs.cache
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.exe
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.pdb
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.fAlta.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.fConsultar.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.fCompra.resources
+C:\Users\aitor\source\repos\cSharp_Instituto\Examen2Trim\obj\Debug\Examen2Trim.cVenta.resources
